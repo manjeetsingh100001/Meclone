@@ -1,0 +1,280 @@
+
+
+#HomeSize {
+    width: 74%;
+    margin: auto;
+    margin-top: 160px;
+  }
+  
+  #HomeBanner0 {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  #HomeBannerDiv {
+    background-color: rgb(249, 249, 249);
+    border-radius: 8px;
+    padding: 40px 67px 40px 48px;
+    height: 336px;
+    width: 611px;
+    border-radius: 0px;
+  }
+  
+  .HomeBannerHeading {
+    font-size: 38px;
+    line-height: 50px;
+    color: rgb(51, 51, 51);
+    width: 100%;
+    font-weight: bold;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+  }
+  
+  .HomeBannerHeading1 {
+    border-radius: 8px;
+    margin-top: 28px;
+    padding: 9px 16px;
+  }
+  
+  .HomeBannerPaira {
+    color: rgb(102, 102, 102);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .HomeBannerHeading2 {
+    width: 280px;
+    margin-top: 30px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 10px 28px;
+    background: rgb(244, 51, 151);
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+  .HomeImgSpan {
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0px;
+    padding: 0px 0px 0px 16px;
+  }
+  
+  #HomeDiv {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    margin-bottom: 50px;
+    gap: 15px;
+  }
+  #HomeproBox {
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(240, 240, 240);
+  }
+  
+  .HomeproImg {
+    width: 250px;
+    height: 320px;
+    border-radius: 4px;
+  }
+  
+  #HomeHeading {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .HomeLine {
+    height: 1px;
+    width: 22%;
+    background-color: rgb(247 168 202);
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  #HomeBanner1 {
+    background-image: url("https://images.meesho.com/images/marketing/1649759774600.jpg");
+    display: flex;
+    margin: 48px 0px 60px;
+    /* margin-bottom: 50px; */
+    padding: 20px 24px 22px;
+    /* height: 546px; */
+    border-radius: 4px;
+  }
+  
+  #HomeBanner2 {
+    background-image: url(https://images.meesho.com/images/pow/1629883965347.jpeg);
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+    height: 546px;
+    width: 95%;
+    padding: 0px 24px 0px 28px;
+  }
+  
+  .HomeBannerImg img {
+    height: 348px;
+    width: 212px;
+    background: rgb(205, 237, 222);
+    padding: 30px;
+  }
+  
+  .HomeBanner2Button {
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 150px;
+    align-items: center;
+  }
+  
+  .HomeBanner2Button button {
+    cursor: pointer;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.0015em;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 26px;
+    margin-left: 50px;
+  }
+  .HomeBanner2Button h1 {
+    color: rgb(3, 141, 99);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    margin: 0px;
+    padding: 0px 0px 37px;
+  }
+  
+  .Homecomman {
+    width: 100%;
+    margin: auto;
+  }
+  #HomeBanner3 {
+    margin-bottom: 60px;
+  }
+  #HomeBanner4 {
+    margin-bottom: 40px;
+  }
+  .HomeForYou {
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px 0px 28px 0px;
+  }
+  
+  .HomeProHeading {
+    color: rgb(153 153 153);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    /* font-family: Mier book; */
+  }
+  
+  .HomeProPrice {
+    display: flex;
+    align-items: center;
+    height: 20px;
+  }
+  
+  .HomeProPrice h5 {
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 5px;
+  }
+  
+  .HomeProPrice p {
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px;
+  }
+  
+  .HomeProPrice span {
+    color: rgb(3, 141, 99);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px;
+  }
+  
+  .HomeDiscount {
+    color: rgb(102, 102, 102);
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  
+  .box {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    width: 226px;
+  }
+  
+  .HomeDelivery {
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    pointer-events: none;
+    color: rgb(102, 102, 102);
+    background: rgb(249, 249, 249);
+    padding: 4px 8px;
+    border-radius: 48px;
+    display: inline-flex;
+  }
+  
+  .HomeRating {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .HomeRating1 {
+    width: 40px;
+    align-items: center;
+    border-radius: 16px;
+    padding: 6px 8px;
+    background: rgb(35 187 117);
+  }
+  
+  .HomeReviews {
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  

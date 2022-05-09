@@ -1,0 +1,99 @@
+.lglt{
+    background-color: #FC72A8;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lgmn{
+    height: 100vh;
+    width: 100%;
+    /* background-color: coral; */
+    display: flex;
+}
+
+.lgfm{
+
+    flex: 1;
+
+}
+
+.inpwpr{
+    /* background-color: antiquewhite; */
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.inpwpr>input{
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+}
+.inpwpr>h3{
+    margin: 10px;
+}
+
+.inpwpr>div{
+
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inpwpr>div>button{
+
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #FC72A8;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.inpwpr>div>button:hover{
+
+    cursor: pointer;
+
+}
+
+.fminp{
+    /* background-color: aquamarine; */
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+    height: 450px;
+    
+    
+}
+
+.lgfm{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.supbt{
+
+    /* background-color: yellow; */
+    margin-top: 50px;
+    border-top: 1px solid gray;
+
+}
+
+.supbt>button{
+
+    margin-top: 20px;
+    padding: 10px 105px;
+    background-color: white;
+    border: #FC72A8 1px solid;
+    border-radius: 5px;
+    color: #FC72A8;
+
+}

@@ -1,0 +1,13 @@
+.text_clr{
+
+    cursor: pointer;
+    color: rgb(244, 51, 151);
+    /* background-color: transparent; */
+   font-weight: 500;
+}
+.Header{
+    padding: 2% 15 2% 5%
+}
+.footer_dropdown{
+    padding:  10%  10%
+}
